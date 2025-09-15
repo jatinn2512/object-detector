@@ -30,10 +30,10 @@ pip install ultralytics
 ```bash
 python app.py
 ```
+- A webcam window will open  
+- Objects will be detected in real-time with bounding boxes and labels  
+- Press **q** to quit the app  
 
--A webcam window will open.
--Objects will be detected in real-time with bounding boxes and labels.
--Press q to quit the app.
 
 ## 🗂️ Project Structure
 ```bash
@@ -58,4 +58,8 @@ Object-detector/
 ```bash
 Detected: person 0.91
 Detected: cell phone 0.85
+```
+```bash
+*(The number shown in `person 0.91` means YOLO is ~91% confident it’s a person.)*  
+*(The number shown in `cell phone 0.85` means YOLO is ~85% confident it’s a cell phone.)*
 ```
